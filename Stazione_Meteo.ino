@@ -134,7 +134,7 @@ void loop() {
 
   // se il file è disponibile, allora scrivi:
 
-if (now.minute() == 31 && now.second() == 0 || now.minute() == 32 && now.second() == 0 || now.minute() == 33 && now.second() == 0 || now.minute() == 34 && now.second() == 0){
+if (now.minute() == 0 && now.second() == 0 || now.minute() == 15 && now.second() == 0 || now.minute() == 30 && now.second() == 0 || now.minute() == 45 && now.second() == 0){
   if (dataFile) {
     dataFile.println(tutto);
     dataFile.close();
