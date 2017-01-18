@@ -1,11 +1,11 @@
 // INSERIMENTO LIBRERIE
 #include <SD.h>
-#include <Dhcp.h>
-#include <Dns.h>
-#include <Ethernet.h>
-#include <EthernetClient.h>
-#include <EthernetServer.h>
-#include <EthernetUdp.h>
+//#include <Dhcp.h>
+//#include <Dns.h>
+//#include <Ethernet.h>
+//#include <EthernetClient.h>
+//#include <EthernetServer.h>
+//#include <EthernetUdp.h>
 #include "DHT.h"
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
